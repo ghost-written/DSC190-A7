@@ -2,7 +2,7 @@ import csv
 from datetime import datetime
 from pathlib import Path
 
-VALID_EVENT_TYPES = {"click", "login", "scroll", "view", "buy", "purchase"}
+VALID_EVENT_TYPES = {"click", "login", "scroll", "view", "purchase"}
 
 TIMESTAMP_FORMATS = [
     "%Y-%m-%dT%H:%M:%S.%f",
